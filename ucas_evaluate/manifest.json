@@ -5,8 +5,8 @@
     "description": "ucas评教助手",
     "content_scripts": [
         {
-            "matches": ["http://jwxk.ucas.ac.cn/evaluate/evaluate/*"],
-            "js": ["js/content.js"]
+            "matches": ["http://jwxk.ucas.ac.cn/evaluate/evaluateTeacher/*"],
+            "js": ["js/jquery-3.3.1.min.js","js/content.js"]
         }
     ]
 }
