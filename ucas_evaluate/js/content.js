@@ -1,24 +1,10 @@
-document.getElementById('184_103').checked = true;
-document.getElementById('185_103').checked = true;
-document.getElementById('186_103').checked = true;
-document.getElementById('187_103').checked = true;
-document.getElementById('188_103').checked = true;
-document.getElementById('189_103').checked = true;
-document.getElementById('190_103').checked = true;
-document.getElementById('191_103').checked = true;
-document.getElementById('192_103').checked = true;
-document.getElementById('193_103').checked = true;
-document.getElementById('194_103').checked = true;
-document.getElementById('195_103').checked = true;
-document.getElementById('198_103').checked = true;
-document.getElementById('199_103').checked = true;
-document.getElementById('200_103').checked = true;
-document.getElementById('196_103').checked = true;
-document.getElementById('197_103').checked = true;
-document.getElementById('rateit-range-2').setAttribute("aria-valuenow", 5);
-document.getElementById('backing4').value = 5;
-document.getElementsByClassName('rateit-selected')[0].style = 'height: 32px; width: 160px; display: block;';
-document.getElementById('merit').value = "课程特色鲜明，内容取舍合理，组织严密，逻辑性强，讲授思路清晰，概念清楚。";
-document.getElementById('flaw').value = "治学严整、言传身教，希望增加互动环节，减少课程作业，降低学习难度。";
-document.getElementById('suggest').value = "课程难度，作业数量，课程实用程度，层次是否分明，学生能够学到哪些知识";
+for (var i=34;i<67;i++)
+{ 
+    if($("input[name='item_"+i+"']")[0])
+	{
+		$("input[name='item_"+i+"']")[0].checked=true;
+	}
+}
+document.getElementById('item_43').value = "老师风趣幽默的讲课风格和扎实的课堂内容。";
+document.getElementById('item_44').value = "老师的讲解满足我的期望，没有意见。";
 document.getElementById("sb1").click();
