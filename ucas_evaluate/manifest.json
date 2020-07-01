@@ -7,6 +7,10 @@
         {
             "matches": ["http://jwxk.ucas.ac.cn/evaluate/evaluateTeacher/*"],
             "js": ["js/jquery-3.3.1.min.js","js/content.js"]
+        },
+        {
+            "matches": ["http://jwxk.ucas.ac.cn/evaluate/evaluateCourse/*"],
+            "js": ["js/jquery-3.3.1.min.js","js/evaluateCourse.js"]
         }
     ]
 }
